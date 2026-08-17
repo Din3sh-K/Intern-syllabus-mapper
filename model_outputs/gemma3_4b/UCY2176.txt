@@ -1,0 +1,172 @@
+
+======================================================================
+SUBJECT: UCY2176 - ENGINEERING CHEMISTRY
+UNIT: I
+MODEL: gemma3:4b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Atoms – Atomic orbitals, Molecules – Molecular orbitals. Nanoparticles and its uniqueness. Distinction
+between molecules, nanoparticles and bulk materials. Classification of nanoparticles. Size dependent
+Properties – Thermal, Optical, Chemical, Electronic and Mechanical. Synthesis of nanomaterials –
+bottom-up and top-down approaches – Techniques- Colloidal, hydrothermal, electrodeposition, chemical
+vapour deposition, laser ablation. Objectives of surface modification of nanoparticles. Synthesis and
+applications – Carbon Nano Tubes (CNT)
+– Gold nanoparticle
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Atoms – Atomic orbitals
+Subtopic: Molecular orbitals
+
+Topic: Molecules – Molecular orbitals
+
+Topic: Nanoparticles and its uniqueness
+
+Topic: Distinction between molecules, nanoparticles and bulk materials
+
+Topic: Classification of nanoparticles
+
+Topic: Size dependent Properties – Thermal, Optical, Chemical, Electronic and Mechanical
+
+Topic: Synthesis of nanomaterials – bottom-up and top-down approaches – Techniques- Colloidal, hydrothermal, electrodeposition, chemical vapour deposition, laser ablation
+
+Topic: Objectives of surface modification of nanoparticles
+
+Topic: Synthesis and applications – Carbon Nano Tubes (CNT)
+– Gold nanoparticle
+
+
+======================================================================
+SUBJECT: UCY2176 - ENGINEERING CHEMISTRY
+UNIT: II
+MODEL: gemma3:4b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Conductivity of electrolytes – factors influencing conductivity- Conductometric titration and its
+applications – estimation of strong acid, estimation of mixture of strong and weak acids and estimation
+of BaCl2. Electrochemical cell – redox reaction – origin of electrode potential, Types of electrodes,
+Measurement of electrode potential and emf of the electrochemical cell – reference electrode- saturated
+calomel electrode and Ag/AgCl electrode – Ion selective electrode – glass electrode measurement of pH
+– Potentiometric titrations – estimation of ferrous ion and estimation of strong acid. Problems based on
+all the above concepts.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Conductivity of electrolytes – factors influencing conductivity
+Subtopic: Conductometric titration and its applications
+Subtopic: estimation of strong acid
+Subtopic: estimation of mixture of strong and weak acids
+Subtopic: estimation of BaCl2
+Topic: Electrochemical cell – redox reaction
+Subtopic: origin of electrode potential
+Subtopic: Types of electrodes
+Subtopic: Measurement of electrode potential and emf of the electrochemical cell
+Subtopic: reference electrode
+Subtopic: saturated calomel electrode and Ag/AgCl electrode
+Subtopic: Ion selective electrode
+Subtopic: glass electrode measurement of pH
+Subtopic: Potentiometric titrations
+Subtopic: estimation of ferrous ion
+Subtopic: estimation of strong acid
+Topic: Problems based on all the above concepts
+
+
+======================================================================
+SUBJECT: UCY2176 - ENGINEERING CHEMISTRY
+UNIT: III
+MODEL: gemma3:4b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Corrosion – Definition – Classification of corrosion-Chemical corrosion – Pilling – Bedworth rule –
+electrochemical corrosion – different types – galvanic corrosion – differential aeration corrosion – factors
+influencing corrosion – corrosion control – selection of materials - sacrificial anode and impressed current
+cathodic methods – corrosion inhibitors – protective coatings – paints – constituents and functions –
+metallic coatings – electroplating (Au) and electroless (Ni) plating.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Corrosion – Definition
+Subtopic: Classification of corrosion-Chemical corrosion
+Subtopic: Pilling – Bedworth rule
+Subtopic: electrochemical corrosion
+Subtopic: different types
+Subtopic: galvanic corrosion
+Subtopic: differential aeration corrosion
+Subtopic: factors influencing corrosion
+Subtopic: corrosion control
+Subtopic: selection of materials
+Subtopic: sacrificial anode and impressed current cathodic methods
+Subtopic: corrosion inhibitors
+Subtopic: protective coatings – paints
+Subtopic: metallic coatings – electroplating (Au) and electroless (Ni) plating
+
+
+======================================================================
+SUBJECT: UCY2176 - ENGINEERING CHEMISTRY
+UNIT: IV
+MODEL: gemma3:4b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Phase Rule – Definition and explanation of terms involved with suitable examples – Phase – Components
+– Degrees of Freedom – Applications and limitations of Phase Rule, One com- ponent system – H2O Two
+component systems – Construction of phase diagram by Thermal Analysis (or) Cooling curves –
+Condensed Phase Rule – Simple eutectic systems: Pb-Ag system – System with congruent melting point:
+Zn-Mg – System with incongruent melting point: Ni-Cd
+SYNTHESIS AND APPLICATIONS OF INDUSTRIAL
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Phase Rule – Definition and explanation of terms involved with suitable examples
+Subtopic: Phase
+Subtopic: Components
+Subtopic: Degrees of Freedom
+Subtopic: Applications and limitations of Phase Rule, One com- ponent system
+Subtopic: H2O Two component systems
+Subtopic: Construction of phase diagram by Thermal Analysis (or) Cooling curves
+Topic: Condensed Phase Rule
+Subtopic: Simple eutectic systems: Pb-Ag system
+Subtopic: System with congruent melting point: Zn-Mg
+Subtopic: System with incongruent melting point: Ni-Cd
+
+
+======================================================================
+SUBJECT: UCY2176 - ENGINEERING CHEMISTRY
+UNIT: V
+MODEL: gemma3:4b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+POLYMERS
+Polymers and Polymerization: definition, classification – types of polymerization: addition and
+condensation – mechanism of addition polymerization (cationic, anionic, free radical and coordination
+polymerization)-Properties: Glass Transition temperature, Average Molecular weight and its
+determination by viscosity method. Polymer composites (fibre reinforced plas- tics) – preparation,
+properties and application of engineering plastics Epoxy resin, Polyurethans, Nylon 6:6, Polycarbonate,
+PS, PVC and PET
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Polymers and Polymerization
+Subtopic: definition
+Subtopic: classification – types of polymerization: addition and condensation
+Subtopic: mechanism of addition polymerization (cationic, anionic, free radical and coordination polymerization)
+Subtopic: Properties: Glass Transition temperature, Average Molecular weight and its determination by viscosity method
+Topic: Polymer composites (fibre reinforced plas- tics)
+Subtopic: preparation
+Subtopic: properties and application of engineering plastics
+Topic: Epoxy resin
+Subtopic: Polyurethans
+Topic: Nylon 6:6
+Subtopic: Polycarbonate
+Topic: PS
+Subtopic: PVC and PET
+

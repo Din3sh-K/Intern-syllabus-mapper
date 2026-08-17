@@ -1,0 +1,144 @@
+
+======================================================================
+SUBJECT: UPH2176 - ENGINEERING PHYSICS
+UNIT: I
+MODEL: gemma3:4b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Single crystalline, polycrystalline and amorphous materials– single crystals - Lattice – Unit cell – Bravais
+lattice – Lattice planes – Miller indices – d spacing in cubic lattice – Calculation of number of atoms per
+unit cell – Atomic radius – Coordination number – Packing factor for SC, BCC, FCC and HCP structures
+– Diamond and graphite structures (qualitative treatment) – Crystal Imperfections – Point, line (Edge and
+Screw dislocations – Burger vectors) Surface (stacking faults) and Volume defects.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Single crystalline, polycrystalline and amorphous materials
+Subtopic: single crystals - Lattice – Unit cell – Bravais lattice
+Subtopic: Lattice planes – Miller indices – d spacing in cubic lattice – Calculation of number of atoms per unit cell
+Subtopic: Atomic radius – Coordination number – Packing factor for SC, BCC, FCC and HCP structures
+Subtopic: Diamond and graphite structures (qualitative treatment)
+Subtopic: Crystal Imperfections – Point, line (Edge and Screw dislocations – Burger vectors)
+Subtopic: Surface (stacking faults) and Volume defects
+
+
+======================================================================
+SUBJECT: UPH2176 - ENGINEERING PHYSICS
+UNIT: II
+MODEL: gemma3:4b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Properties of matter: Elasticity – Hooke’s law – Relationship between three moduli of elasticity – stress
+-strain diagram– Poisson’s ratio – Factors affecting elasticity – Torsional stress & deformations –
+Twisting couple – Torsion pendulum - theory and experiment – bending of beams-bending moment –
+cantilever: theory and experiment – uniform and non-uniform bending: theory and experiment – I-shaped
+girders. Thermal Physics: Modes of heat transfer – thermal conduction, convection and radiation –
+Newton’s law of cooling – thermal conductivity – Lee’s disc method for bad conductor – Radial heat flow
+– Rubber tube method – conduction through compound media (series and parallel)
+– Formation of ice on ponds.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Properties of matter
+Subtopic: Elasticity – Hooke’s law – Relationship between three moduli of elasticity – stress
+Subtopic: -strain diagram– Poisson’s ratio – Factors affecting elasticity – Torsional stress & deformations –
+Subtopic: Twisting couple – Torsion pendulum - theory and experiment – bending of beams-bending moment –
+Subtopic: cantilever: theory and experiment – uniform and non-uniform bending: theory and experiment – I-shaped
+Subtopic: girders.
+Topic: Thermal Physics
+Subtopic: Modes of heat transfer – thermal conduction, convection and radiation –
+Subtopic: Newton’s law of cooling – thermal conductivity – Lee’s disc method for bad conductor – Radial heat flow
+Subtopic: – Rubber tube method – conduction through compound media (series and parallel)
+Subtopic: – Formation of ice on ponds.
+
+
+======================================================================
+SUBJECT: UPH2176 - ENGINEERING PHYSICS
+UNIT: III
+MODEL: gemma3:4b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Acoustics: Classification and characteristics of Sound – decibel – Weber-Fechner law – Sabine’s formula
+- derivation using growth and decay method – factors affecting acoustics of buildings and their remedies
+– Methods of determination of Absorption Coefficient. Ultrasonics: Pro- duction of ultrasonics by
+Magnetostriction and piezoelectric methods – acoustic grating - Non-Destructive Testing – pulse echo
+system through transmission and reflection modes – A, B and C – scan displays.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Acoustics
+Subtopic: Classification and characteristics of Sound – decibel – Weber-Fechner law – Sabine’s formula
+Subtopic: derivation using growth and decay method – factors affecting acoustics of buildings and their remedies
+Subtopic: Methods of determination of Absorption Coefficient.
+Topic: Ultrasonics
+Subtopic: Production of ultrasonics by Magnetostriction and piezoelectric methods – acoustic grating
+Subtopic: Non-Destructive Testing – pulse echo system through transmission and reflection modes – A, B and C – scan displays
+
+
+======================================================================
+SUBJECT: UPH2176 - ENGINEERING PHYSICS
+UNIT: IV
+MODEL: gemma3:4b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Black body radiation – Planck’s theory (derivation) – Deduction of Wien’s displacement law and
+Rayleigh-Jeans’ Law from Planck’s theory – Compton Effect. Theory and experimental verification –
+Properties of Matter waves – wave particle duality – Schrodinger’s wave equation – Time independent
+and time dependent equations – Physical significance of wave function – Particle in a one-dimensional
+box and extension to three dimensional box – Degeneracy of electron energy states - Scanning electron
+microscope – Transmission electron microscope.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Black body radiation – Planck’s theory (derivation)
+Subtopic: Deduction of Wien’s displacement law and
+Rayleigh-Jeans’ Law from Planck’s theory
+Subtopic: Compton Effect. Theory and experimental verification
+
+Topic: Properties of Matter waves
+Subtopic: wave particle duality
+
+Topic: Schrodinger’s wave equation
+Subtopic: Time independent
+Subtopic: Time dependent equations
+Subtopic: Physical significance of wave function
+
+Topic: Particle in a one-dimensional box and extension to three dimensional box
+Subtopic: Degeneracy of electron energy states
+
+Topic: Scanning electron microscope
+Subtopic: Transmission electron microscope
+
+
+======================================================================
+SUBJECT: UPH2176 - ENGINEERING PHYSICS
+UNIT: V
+MODEL: gemma3:4b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Photonics: Spontaneous and stimulated emission – Population inversion – Einstein’s A and B coefficients
+– Conditions for Laser action – Types of lasers – Nd: YAG, & CO2 lasers-Basics of diode lasers –
+Industrial and Medical Applications. Fibre optics: Principle and propagation of light in optical fibres –
+Numerical aperture and Acceptance angle - Types of optical fibres (material, refractive index, mode) –
+Losses in fibers - attenuation, dispersion, bending - Fibre Optical Communication system (Block diagram)
+– Active and passive fibre sensors – pressure and displacement.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Photonics
+Subtopic: Spontaneous and stimulated emission – Population inversion – Einstein’s A and B coefficients – Conditions for Laser action – Types of lasers – Nd: YAG, & CO2 lasers
+Subtopic: Basics of diode lasers – Industrial and Medical Applications.
+Topic: Fibre optics
+Subtopic: Principle and propagation of light in optical fibres – Numerical aperture and Acceptance angle - Types of optical fibres (material, refractive index, mode) – Losses in fibers - attenuation, dispersion, bending
+Subtopic: Fibre Optical Communication system (Block diagram) – Active and passive fibre sensors – pressure and displacement.
+

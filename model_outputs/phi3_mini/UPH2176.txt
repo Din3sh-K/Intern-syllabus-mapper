@@ -1,0 +1,473 @@
+
+======================================================================
+SUBJECT: UPH2176 - ENGINEERING PHYSICS
+UNIT: I
+MODEL: phi3:mini
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Single crystalline, polycrystalline and amorphous materials– single crystals - Lattice – Unit cell – Bravais
+lattice – Lattice planes – Miller indices – d spacing in cubic lattice – Calculation of number of atoms per
+unit cell – Atomic radius – Coordination number – Packing factor for SC, BCC, FCC and HCP structures
+– Diamond and graphite structures (qualitative treatment) – Crystal Imperfections – Point, line (Edge and
+Screw dislocations – Burger vectors) Surface (stacking faults) and Volume defects.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Single crystalline, polycrystalline and amorphous materials
+Subtopic: Single crystals
+Subtopic: Lattice
+Subtopic: Unit cell
+Subtopic: Bravais lattice
+Subtopic: Lattice planes
+Subtopic: Miller indices
+Subtopic: d spacing in cubic lattice
+Subtopic: Calculation of number of atoms per unit cell
+Subtopic: Atomic radius
+Subtopic: Coordination number
+Subtopic: Packing factor for SC, BCC, FCC and HCP structures
+Subtopic: Diamond and graphite structures (qualitative treatment)
+Subtopic: Crystal Imperfections
+Subtopic: Point defects
+Subtopic: Line defects (Edge and Screw dislocations)
+Subtopic: Burger vectors
+Subtopic: Surface (stacking faults) and Volume defects
+
+Topic: Crystal Imperfections
+Subtopic: Point defects
+Subtopic: Line defects (Edge and Screw dislocations)
+Subtopic: Burger vectors
+Subtopic: Surface (stacking faults) and Volume defects
+
+Topic: Diamond and graphite structures (qualitative treatment)
+
+Topic: Packing factor for SC, BCC, FCC and HCP structures
+
+Topic: Atomic radius
+
+Topic: Coordination number
+
+Topic: Bravais lattice
+
+Topic: Lattice planes
+
+Topic: Miller indices
+
+Topic: d spacing in cubic lattice
+
+Topic: Calculation of number of atoms per unit cell
+
+Topic: Single crystalline, polycrystalline and amorphous materials
+
+Topic: Single crystals
+
+Topic: Lattice
+
+Topic: Unit cell
+
+Topic: Bravais lattice
+
+Topic: Lattice planes
+
+Topic: Miller indices
+
+Topic: d spacing in cubic lattice
+
+Topic: Calculation of number of atoms per unit cell
+
+Topic: Atomic radius
+
+Topic: Coordination number
+
+Topic: Packing factor for SC, BCC, FCC and HCP structures
+
+Topic: Diamond and graphite structures (qualitative treatment)
+
+Topic: Crystal Imperfections
+Subtopic: Point defects
+Subtopic: Line defects (Edge and Screw dislocations)
+Subtopic: Burger vectors
+Subtopic: Surface (stacking faults) and Volume defects
+
+Topic: Crystal Imperfections
+Subtopic: Point defects
+Subtopic: Line defects (Edge and Screw dislocations)
+Subtopic: Burger vectors
+Subtopic: Surface (stacking faults) and Volume defects
+
+Topic: Diamond and graphite structures (qualitative treatment)
+
+Topic: Packing factor for SC, BCC, FCC and HCP structures
+
+Topic: Atomic radius
+
+Topic: Coordination number
+
+Topic: Bravais lattice
+
+Topic: Lattice planes
+
+Topic: Miller indices
+
+Topic: d spacing in cubic lattice
+
+Topic: Calculation of number of atoms per unit cell
+
+Topic: Single crystalline, polycrystalline and amorphous materials
+
+Topic: Single crystals
+
+Topic: Lattice
+
+Topic: Unit cell
+
+Topic: Bravais lattice
+
+Topic: Lattice planes
+
+Topic: Miller indices
+
+Topic: d spacing in cubic lattice
+
+Topic: Calculation of number of atoms per unit cell
+
+Topic: Atomic radius
+
+Topic: Coordination number
+
+Topic: Packing factor for SC, BCC, FCC and HCP structures
+
+Topic: Diamond and graphite structures (qualitative treatment)
+
+Topic: Crystal Imperfections
+Subtopic: Point defects
+Subtopic: Line defects (Edge and Screw dislocations)
+Subtopic: Burger vectors
+Subtopic: Surface (stacking faults) and Volume defects
+
+Topic: Crystal Imperfections
+Subtopic: Point defects
+Subtopic: Line defects (Edge and Screw dislocations)
+Subtopic: Burger vectors
+Subtopic: Surface (stacking faults) and Volume defects
+
+Topic: Diamond and graphite structures (qualitative treatment)
+
+Topic: Packing factor for SC, BCC, FCC and HCP structures
+
+Topic: Atomic radius
+
+Top
+
+
+======================================================================
+SUBJECT: UPH2176 - ENGINEERING PHYSICS
+UNIT: II
+MODEL: phi3:mini
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Properties of matter: Elasticity – Hooke’s law – Relationship between three moduli of elasticity – stress
+-strain diagram– Poisson’s ratio – Factors affecting elasticity – Torsional stress & deformations –
+Twisting couple – Torsion pendulum - theory and experiment – bending of beams-bending moment –
+cantilever: theory and experiment – uniform and non-uniform bending: theory and experiment – I-shaped
+girders. Thermal Physics: Modes of heat transfer – thermal conduction, convection and radiation –
+Newton’s law of cooling – thermal conductivity – Lee’s disc method for bad conductor – Radial heat flow
+– Rubber tube method – conduction through compound media (series and parallel)
+– Formation of ice on ponds.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Properties of matter
+Subtopic: Elasticity
+Subtopic: Hooke’s law
+Subtopic: Relationship between three moduli of elasticity
+Subtopic: stress-strain diagram
+Subtopic: Poisson’s ratio
+Subtopic: Factors affecting elasticity
+Subtopic: Torsional stress & deformations
+Subtopic: Twisting couple
+Subtopic: Torsion pendulum
+Subtopic: theory and experiment
+Subtopic: Bending of beams
+Subtopic: Bending moment
+Subtopic: Cantilever
+Subtopic: theory and experiment
+Subtopic: Uniform and non-uniform bending
+Subtopic: I-shaped girders
+
+Topic: Thermal Physics
+Subtopic: Modes of heat transfer
+Subtopic: Thermal conduction
+Subtopic: Convection
+Subtopic: Radiation
+Subtopic: Newton’s law of cooling
+Subtopic: Thermal conductivity
+Subtopic: Lee’s disc method for bad conductor
+Subtopic: Radial heat flow
+Subtopic: Rubber tube method
+Subtopic: Conduction through compound media
+Subtopic: Series and parallel
+
+Topic: Formation of ice on ponds
+Subtopic: Formation of ice on ponds
+
+
+======================================================================
+SUBJECT: UPH2176 - ENGINEERING PHYSICS
+UNIT: III
+MODEL: phi3:mini
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Acoustics: Classification and characteristics of Sound – decibel – Weber-Fechner law – Sabine’s formula
+- derivation using growth and decay method – factors affecting acoustics of buildings and their remedies
+– Methods of determination of Absorption Coefficient. Ultrasonics: Pro- duction of ultrasonics by
+Magnetostriction and piezoelectric methods – acoustic grating - Non-Destructive Testing – pulse echo
+system through transmission and reflection modes – A, B and C – scan displays.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Acoustics: Classification and characteristics of Sound
+Subtopic: decibel
+Subtopic: Weber-Fechner law
+Subtopic: Sabine’s formula
+Subtopic: derivation using growth and decay method
+Subtopic: factors affecting acoustics of buildings and their remedies
+Subtopic: Methods of determination of Absorption Coefficient
+
+Topic: Ultrasonics: Production of ultrasonics
+Subtopic: by Magnetostriction and piezoelectric methods
+Subtopic: acoustic grating
+Subtopic: Non-Destructive Testing
+Subtopic: pulse echo system through transmission and reflection modes
+Subtopic: A
+Subtopic: B
+Subtopic: C
+Subtopic: scan displays.
+
+
+======================================================================
+SUBJECT: UPH2176 - ENGINEERING PHYSICS
+UNIT: IV
+MODEL: phi3:mini
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Black body radiation – Planck’s theory (derivation) – Deduction of Wien’s displacement law and
+Rayleigh-Jeans’ Law from Planck’s theory – Compton Effect. Theory and experimental verification –
+Properties of Matter waves – wave particle duality – Schrodinger’s wave equation – Time independent
+and time dependent equations – Physical significance of wave function – Particle in a one-dimensional
+box and extension to three dimensional box – Degeneracy of electron energy states - Scanning electron
+microscope – Transmission electron microscope.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Black body radiation
+Subtopic: Planck’s theory (derivation)
+Subtopic: Deduction of Wien’ths displacement law and Rayleigh-Jeans’ Law from Planck’s theory
+Subtopic: Theory and experimental verification
+
+Topic: Properties of Matter waves
+Subtopic: wave particle duality
+Subtopic: Schrodinger’s wave equation
+Subtopic: Time independent and time dependent equations
+Subtopic: Physical significance of wave function
+
+Topic: Particle in a one-dimensional box
+Subtopic: Degeneracy of electron energy states
+
+Topic: Scanning electron microscope
+
+Topic: Transmission electron microscope
+
+Topic: Nanoparticles and its uniqueness
+
+Topic: Classification of nanoparticles
+
+Topic: Language development
+Subtopic: Subject-Verb Agreement
+Subtopic: Tenses (simple)
+Subtopic: Conjunctions
+
+Topic: Vocabulary development
+Subtopic: Root words – Prefixes and Suffixes
+Subtopic: Standard abbreviations
+
+Topic: Thermal, Optical, Chemical, Electronic and Mechanical
+Subtopic: Thermal
+Subtopic: Optical
+Subtopic: Chemical
+Subtopic: Electronic
+Subtopic: Mechanical
+
+Topic: Size dependent Properties
+Subtopic: Thermal
+Subtopic: Optical
+Subtopic: Chemical
+Subtopic: Electronic
+Subtopic: Mechanical
+
+Topic: Mathematical methods
+Subtopic: Integration
+Subtopic: Differentiation
+Subtopic: Series and sequences
+Subtopic: Partial fractions
+Subtopic: Limits
+Subtopic: Logarithms
+Subtopic: Exponentials
+Subtopic: Trigonometric functions
+Subtopic: Inverse trigonometric functions
+Subtopic: Hyperbolic functions
+Subtopic: Inverse hyperbolic functions
+Subtopic: Complex numbers
+Subtopic: Polar form
+Subtopic: Euler’s formula
+Subtopic: De Moivre’s theorem
+Subtopic: Roots of unity
+Subtopic: Complex conjugate
+Subtopic: Complex plane
+Subtopic: Argand diagram
+Subtopic: Phasor representation
+Subtopic: Vector addition
+Subtopic: Vector subtraction
+Subtopic: Vector multiplication
+Subtopic: Vector division
+Subtopic: Vector projection
+Subtopic: Vector resolution
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+Subtopic: Vector components
+Subtopic: Vector magnitude
+Subtopic: Vector direction
+
+
+======================================================================
+SUBJECT: UPH2176 - ENGINEERING PHYSICS
+UNIT: V
+MODEL: phi3:mini
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Photonics: Spontaneous and stimulated emission – Population inversion – Einstein’s A and B coefficients
+– Conditions for Laser action – Types of lasers – Nd: YAG, & CO2 lasers-Basics of diode lasers –
+Industrial and Medical Applications. Fibre optics: Principle and propagation of light in optical fibres –
+Numerical aperture and Acceptance angle - Types of optical fibres (material, refractive index, mode) –
+Losses in fibers - attenuation, dispersion, bending - Fibre Optical Communication system (Block diagram)
+– Active and passive fibre sensors – pressure and displacement.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Photonics
+Subtopic: Spontaneous and stimulated emission
+Subtopic: Population inversion
+Subtopic: Einstein’th A and B coefficients
+Subtopic: Conditions for Laser action
+Subtopic: Types of lasers
+Subtopic: Nd: YAG lasers
+Subtopic: CO2 lasers
+Subtopic: Basics of diode lasers
+Subtopic: Industrial and Medical Applications
+
+Topic: Fibre optics
+Subtopic: Principle and propagation of light in optical fibres
+Subtopic: Numerical aperture and Acceptance angle
+Subtopic: Types of optical fibres
+Subtopic: Material
+Subtopic: Refractive index
+Subtopic: Mode
+Subtopic: Losses in fibers
+Subtopic: Attenuation
+Subtopic: Dispersion
+Subtopic: Bending
+Subtopic: Fibre Optical Communication system (Block diagram)
+Subtopic: Active and passive fibre sensors
+Subtopic: Pressure and displacement
+
+Topic: Nanoparticles and its uniqueness
+
+Topic: Classification of nanoparticles
+
+
+

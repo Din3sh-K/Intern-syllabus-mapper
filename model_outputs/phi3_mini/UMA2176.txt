@@ -1,0 +1,154 @@
+
+======================================================================
+SUBJECT: UMA2176 - MATRICES AND CALCULUS
+UNIT: I
+MODEL: phi3:mini
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Characteristic equation – Eigenvalues and Eigenvectors of a real matrix – Properties of eigen- values and
+eigenvectors, Cayley-Hamilton Theorem – statement and applications, Diagonalization of matrices –
+Similarity transformation – Quadratic form – Reduction of a quadratic form to canonical form by
+orthogonal transformation – Nature of quadratic forms.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Characteristic equation
+Subtopic: Eigenvalues and Eigenvectors of a real matrix
+Subtopic: Properties of eigen-values and eigenvectors
+Subtopic: Cayley-Hamilton Theorem
+Subtopic: statement and applications
+
+Topic: Diagonalization of matrices
+Subtopic: Similarity transformation
+Subtopic: Quadratic form
+Subtopic: Reduction of a quadratic form to canonical form by orthogonal transformation
+Subtopic: Nature of quadratic forms
+
+Topic: Language development
+Subtopic: Subject-Verb Agreement
+Subtopic: Tenses (simple)
+Subtopic: Conjunctions
+
+Topic: Vocabulty development
+Subtopic: Root words – Prefixes and Suffixes
+Subtopic: Standard abbreviations
+
+Topic: Nanoparticles and its uniqueness
+
+Topic: Classification of nanoparticles
+
+
+
+
+======================================================================
+SUBJECT: UMA2176 - MATRICES AND CALCULUS
+UNIT: II
+MODEL: phi3:mini
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Sequences – Definition and examples, Series – Types of Convergence, Series of positive terms, Tests of
+convergence – Comparison test, Integral test and D’Alembert’s ratio test, Alternating series – Leibnitz’s
+test, Series of positive and negative terms, Absolute and conditional convergence.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Sequences
+Subtopic: Definition and examples
+Subtopic: Series
+Subtopic: Types of Convergence
+Subtopic: Series of positive terms
+Subtopic: Tests of convergence
+Subtopic: Comparison test
+Subtopic: Integral test
+Subtopic: D’Alembert’th ratio test
+Subtopic: Alternating series
+Subtopic: Leibnitz’s test
+Subtopic: Series of positive and negative terms
+Subtopic: Absolute and conditional convergence
+Topic: Nanoparticles and its uniqueness
+
+Topic: Classification of nanoparticles
+
+
+
+======================================================================
+SUBJECT: UMA2176 - MATRICES AND CALCULUS
+UNIT: III
+MODEL: phi3:mini
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Curvature, radius of curvature – Cartesian and parametric co-ordinates – Centre of curvature – Circle of
+curvature in Cartesian form, Evolutes, Envelopes (including two parameter family), Evolute as envelope
+of normal.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Curvature
+Subtopic: radius of curvature
+Subtopic: Cartesian and parametric co-ordinates
+Subtopic: Centre of curvature
+Subtopic: Circle of curvature in Cartesian form
+Subtopic: Evolutes
+Subtopic: Envelopes (including two parameter family)
+Subtopic: Evolute as envelope of normal
+
+--------------------------------------------------
+
+
+
+
+
+======================================================================
+SUBJECT: UMA2176 - MATRICES AND CALCULUS
+UNIT: IV
+MODEL: phi3:mini
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Partial derivatives – Total derivative – Differentiation of implicit functions – Jacobian and its properties
+– Taylor’s series for functions of two variables – Maxima and minima of functions of two variables –
+Lagrange’s method of undetermined multipliers.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Partial derivatives
+Subtopic: Total derivative
+Subtopic: Differentiation of implicit functions
+Subtopic: Jacobian and its properties
+Subtopic: Taylor’s series for functions of two variables
+Subtopic: Maxima and minima of functions of two variables
+Subtopic: Lagrange’s method of undetermined multipliers.
+
+--------------------------------------------------
+
+
+
+
+
+======================================================================
+SUBJECT: UMA2176 - MATRICES AND CALCULUS
+UNIT: V
+MODEL: phi3:mini
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Double integrals in Cartesian and polar coordinates – Change of order of integration, Area enclosed by
+plane curves – Change of variables in double integrals, Triple integrals.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Double integrals in Cartesian and polar coordinates
+Subtopic: Change of order of integration
+Subtopic: Change of variables in double integrals
+Topic: Triple integrals
+
+
+

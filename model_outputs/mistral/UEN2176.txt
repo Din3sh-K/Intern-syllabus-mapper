@@ -1,0 +1,325 @@
+
+======================================================================
+SUBJECT: UEN2176 - TECHNICAL ENGLISH
+UNIT: I
+MODEL: mistral
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Language development: Subject-Verb Agreement, Tenses (simple), Conjunctions, Numerical adjective;
+Vocabulary development: Root words – Prefixes and Suffixes, Standard abbreviations; Reading:
+Comprehension of short technical texts – skimming and scanning; Writing: Describing an object, the
+process of an event/experiment and others, Paragraph Writing; Listening: Listening for taking notes and
+seeking clarifications (classroom lectures/ ted talks etc); Speaking: Self-introduction and introducing
+others/short conversations in formal and informal contexts
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+ Topic: Language development
+Subtopic: Subject-Verb Agreement
+Subtopic: Tenses (simple)
+Subtopic: Conjunctions
+
+Topic: Vocabulary development
+Subtopic: Root words – Prefixes and Suffixes
+Subtopic: Standard abbreviations
+
+Topic: Reading
+Subtopic: Comprehension of short technical texts – skimming and scanning
+
+Topic: Writing
+Subtopic: Describing an object
+Subtopic: the process of an event/experiment and others
+Subtopic: Paragraph Writing
+
+Topic: Listening
+Subtopic: Listening for taking notes and seeking clarifications (classroom lectures/ ted talks etc)
+
+Topic: Speaking
+Subtopic: Self-introduction and introducing others/short conversations in formal and informal contexts
+
+
+======================================================================
+SUBJECT: UEN2176 - TECHNICAL ENGLISH
+UNIT: II
+MODEL: mistral
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Language development: The pronouns-antecedent agreement, Tenses-continuous, If conditionals,
+Adverbs; Vocabulary development: Collocations and fixed expressions, Avoidance of Jargons; Reading:
+Comprehension of longer texts – (Interpretative and Critical levels of mean-meaning); Writing: Writing
+definitions (single sentence and extended), Expository and Persuasive Essays; Listening: Listening
+Comprehension Tasks; Speaking: Making technical presentations.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+ Topic: Language development
+Subtopic: The pronouns-antecedent agreement
+Subtopic: Tenses-continuous
+Subtopic: If conditionals
+Subtopic: Adverbs
+
+Topic: Vocabulary development
+Subtopic: Collocations and fixed expressions
+Subtopic: Avoidance of Jargons
+
+Topic: Reading
+Subtopic: Comprehension of longer texts – (Interpretative and Critical levels of mean-meaning)
+
+Topic: Writing
+Subtopic: Writing definitions (single sentence and extended)
+Subtopic: Expository and Persuasive Essays
+
+Topic: Listening
+Subtopic: Listening Comprehension Tasks
+
+Topic: Speaking
+Subtopic: Making technical presentations
+
+
+======================================================================
+SUBJECT: UEN2176 - TECHNICAL ENGLISH
+UNIT: III
+MODEL: mistral
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Language development: Prepositions, Tenses-perfect, Articles, Embedded sentences; Vocabulary
+development: Compound words, Formal and informal vocabulary, Reading: Reading reviews,
+advertisements, SOPs for higher studies; Writing: Writing instruction and recommendations, formal and
+informal letters/ emails, Writing SOPs; Listening: Listening to longer technical talks and discussion;
+Speaking: Demonstrating working mechanisms.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+ Topic: Language development
+Subtopic: Prepositions
+Subtopic: Tenses-perfect
+Subtopic: Articles
+Subtopic: Embedded sentences
+
+Topic: Vocabulary development
+Subtopic: Compound words
+Subtopic: Formal and informal vocabulary
+Subtopic: Reading: Reading reviews, advertisements, SOPs for higher studies
+
+Topic: Writing
+Subtopic: Writing instruction and recommendations
+Subtopic: formal and informal letters/ emails
+Subtopic: Writing SOPs
+
+Topic: Listening
+Subtopic: Listening to longer technical talks and discussion
+
+Topic: Speaking
+Subtopic: Demonstrating working mechanisms
+
+
+======================================================================
+SUBJECT: UEN2176 - TECHNICAL ENGLISH
+UNIT: I
+MODEL: mistral
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Language development: Subject-Verb Agreement, Tenses (simple), Conjunctions, Numerical adjective;
+Vocabulary development: Root words – Prefixes and Suffixes, Standard abbreviations; Reading:
+Comprehension of short technical texts – skimming and scanning; Writing: Describing an object, the
+process of an event/experiment and others, Paragraph Writing; Listening: Listening for taking notes and
+seeking clarifications (classroom lectures/ ted talks etc); Speaking: Self-introduction and introducing
+others/short conversations in formal and informal contexts
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+ Topic: Language development
+Subtopic: Subject-Verb Agreement
+Subtopic: Tenses (simple)
+Subtopic: Conjunctions
+
+Topic: Vocabulary development
+Subtopic: Root words – Prefixes and Suffixes
+Subtopic: Standard abbreviations
+
+Topic: Reading
+Subtopic: Comprehension of short technical texts – skimming and scanning
+
+Topic: Writing
+Subtopic: Describing an object
+Subtopic: the process of an event/experiment and others
+Subtopic: Paragraph Writing
+
+Topic: Listening
+Subtopic: Listening for taking notes and seeking clarifications (classroom lectures/ ted talks etc)
+
+Topic: Speaking
+Subtopic: Self-introduction and introducing others/short conversations in formal and informal contexts
+
+
+======================================================================
+SUBJECT: UEN2176 - TECHNICAL ENGLISH
+UNIT: II
+MODEL: mistral
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Language development: The pronouns-antecedent agreement, Tenses-continuous, If conditionals,
+Adverbs; Vocabulary development: Collocations and fixed expressions, Avoidance of Jargons; Reading:
+Comprehension of longer texts – (Interpretative and Critical levels of mean-meaning); Writing: Writing
+definitions (single sentence and extended), Expository and Persuasive Essays; Listening: Listening
+Comprehension Tasks; Speaking: Making technical presentations.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+ Topic: Language development
+Subtopic: The pronouns-antecedent agreement
+Subtopic: Tenses-continuous
+Subtopic: If conditionals
+Subtopic: Adverbs
+
+Topic: Vocabulary development
+Subtopic: Collocations and fixed expressions
+Subtopic: Avoidance of Jargons
+
+Topic: Reading
+Subtopic: Comprehension of longer texts – (Interpretative and Critical levels of mean-meaning)
+
+Topic: Writing
+Subtopic: Writing definitions (single sentence and extended)
+Subtopic: Expository and Persuasive Essays
+
+Topic: Listening
+Subtopic: Listening Comprehension Tasks
+
+Topic: Speaking
+Subtopic: Making technical presentations
+
+
+======================================================================
+SUBJECT: UEN2176 - TECHNICAL ENGLISH
+UNIT: III
+MODEL: mistral
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Language development: Prepositions, Tenses-perfect, Articles, Embedded sentences; Vocabulary
+development: Compound words, Formal and informal vocabulary, Reading: Reading reviews,
+advertisements, SOPs for higher studies; Writing: Writing instruction and recommendations, formal and
+informal letters/ emails, Writing SOPs; Listening: Listening to longer technical talks and discussion;
+Speaking: Demonstrating working mechanisms.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+ Topic: Language development
+Subtopic: Prepositions
+Subtopic: Tenses-perfect
+Subtopic: Articles
+Subtopic: Embedded sentences
+
+Topic: Vocabulary development
+Subtopic: Compound words
+Subtopic: Formal and informal vocabulary
+Subtopic: Reading: Reading reviews, advertisements, SOPs for higher studies
+
+Topic: Writing
+Subtopic: Writing instruction and recommendations
+Subtopic: formal and informal letters/ emails
+Subtopic: Writing SOPs
+
+Topic: Listening
+Subtopic: Listening to longer technical talks and discussion
+
+Topic: Speaking
+Subtopic: Demonstrating working mechanisms
+
+
+======================================================================
+SUBJECT: UEN2176 - TECHNICAL ENGLISH
+UNIT: IV
+MODEL: mistral
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Language development: Reported speech, Active and Passive voices, Framing ‘Wh’ and ‘Yes’ or ‘No’
+questions; Vocabulary development: Technical vocabulary, Verbal analogies; Read- ing: Reading
+industrial case studies, interpreting technical text and making notes; Writing: Interpreting charts and
+graphs, writing blogs and vlogs; Listening: Listening to telephonic conversations and online interviews;
+Speaking: Participating in group discussions.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+ Topic: Language development
+Subtopic: Reported speech
+Subtopic: Active and Passive voices
+Subtopic: Framing ‘Wh’ and ‘Yes’ or ‘No’ questions
+
+Topic: Vocabulary development
+Subtopic: Technical vocabulary
+Subtopic: Verbal analogies
+
+Topic: Reading
+Subtopic: Reading industrial case studies
+Subtopic: Interpreting technical text
+Subtopic: Making notes
+
+Topic: Writing
+Subtopic: Interpreting charts and graphs
+Subtopic: Writing blogs and vlogs
+
+Topic: Listening
+Subtopic: Listening to telephonic conversations
+Subtopic: Listening to online interviews
+
+Topic: Speaking
+Subtopic: Participating in group discussions
+
+
+======================================================================
+SUBJECT: UEN2176 - TECHNICAL ENGLISH
+UNIT: V
+MODEL: mistral
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Language development: Phrasal verbs, clauses, compound and complex sentences; Vocabulary
+development: Single-word substitutes, Vocabulary retention strategies; Reading: Reading for IELTS,
+GER, TOEFL; Writing: Writing proposals and reports, writing minutes of the meeting; Listening:
+Listening Skills for Proficiency Tests like IELTS; Speaking: Job Interviews (face to face and online) –
+basics.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+ Topic: Language development
+Subtopic: Phrasal verbs
+Subtopic: clauses
+Subtopic: compound sentences
+Subtopic: complex sentences
+
+Topic: Language development
+Subtopic: Vocabulary development
+Subtopic: Single-word substitutes
+Subtopic: Vocabulary retention strategies
+
+Topic: Reading
+Subtopic: Reading for IELTS
+Subtopic: GER
+Subtopic: TOEFL
+
+Topic: Writing
+Subtopic: Writing proposals and reports
+Subtopic: writing minutes of the meeting
+
+Topic: Listening
+Subtopic: Listening Skills for Proficiency Tests like IELTS
+
+Topic: Speaking
+Subtopic: Job Interviews (face to face and online) – basics
+
