@@ -7,7 +7,7 @@ import requests
 # ------------------------------------------------------------
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-OLLAMA_MODEL = "phi3:mini"
+OLLAMA_MODEL = "gemma3:12b"
 
 LLM_TEMPERATURE = 0
 LLM_MAX_RETRIES = 1

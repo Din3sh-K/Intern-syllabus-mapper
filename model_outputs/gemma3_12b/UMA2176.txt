@@ -1,0 +1,115 @@
+
+======================================================================
+SUBJECT: UMA2176 - MATRICES AND CALCULUS
+UNIT: I
+MODEL: gemma3:12b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Characteristic equation – Eigenvalues and Eigenvectors of a real matrix – Properties of eigen- values and
+eigenvectors, Cayley-Hamilton Theorem – statement and applications, Diagonalization of matrices –
+Similarity transformation – Quadratic form – Reduction of a quadratic form to canonical form by
+orthogonal transformation – Nature of quadratic forms.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Characteristic equation
+Topic: Eigenvalues and Eigenvectors of a real matrix
+Topic: Properties of eigen- values and eigenvectors
+Topic: Cayley-Hamilton Theorem
+Subtopic: statement and applications
+Topic: Diagonalization of matrices
+Topic: Similarity transformation
+Topic: Quadratic form
+Topic: Reduction of a quadratic form to canonical form by orthogonal transformation
+Topic: Nature of quadratic forms
+
+
+======================================================================
+SUBJECT: UMA2176 - MATRICES AND CALCULUS
+UNIT: II
+MODEL: gemma3:12b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Sequences – Definition and examples, Series – Types of Convergence, Series of positive terms, Tests of
+convergence – Comparison test, Integral test and D’Alembert’s ratio test, Alternating series – Leibnitz’s
+test, Series of positive and negative terms, Absolute and conditional convergence.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Sequences – Definition and examples
+Topic: Series – Types of Convergence
+Topic: Series of positive terms
+Topic: Tests of convergence – Comparison test
+Topic: Tests of convergence – Integral test
+Topic: Tests of convergence – D’Alembert’s ratio test
+Topic: Alternating series – Leibnitz’s test
+Topic: Series of positive and negative terms
+Topic: Absolute and conditional convergence
+
+
+======================================================================
+SUBJECT: UMA2176 - MATRICES AND CALCULUS
+UNIT: III
+MODEL: gemma3:12b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Curvature, radius of curvature – Cartesian and parametric co-ordinates – Centre of curvature – Circle of
+curvature in Cartesian form, Evolutes, Envelopes (including two parameter family), Evolute as envelope
+of normal.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Curvature, radius of curvature – Cartesian and parametric co-ordinates – Centre of curvature – Circle of
+curvature in Cartesian form, Evolutes, Envelopes (including two parameter family), Evolute as envelope
+of normal.
+
+
+
+======================================================================
+SUBJECT: UMA2176 - MATRICES AND CALCULUS
+UNIT: IV
+MODEL: gemma3:12b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Partial derivatives – Total derivative – Differentiation of implicit functions – Jacobian and its properties
+– Taylor’s series for functions of two variables – Maxima and minima of functions of two variables –
+Lagrange’s method of undetermined multipliers.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Partial derivatives
+Subtopic: Total derivative
+Subtopic: Differentiation of implicit functions
+Subtopic: Jacobian and its properties
+Subtopic: Taylor’s series for functions of two variables
+Subtopic: Maxima and minima of functions of two variables
+Subtopic: Lagrange’s method of undetermined multipliers
+
+
+======================================================================
+SUBJECT: UMA2176 - MATRICES AND CALCULUS
+UNIT: V
+MODEL: gemma3:12b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Double integrals in Cartesian and polar coordinates – Change of order of integration, Area enclosed by
+plane curves – Change of variables in double integrals, Triple integrals.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Double integrals in Cartesian and polar coordinates
+Topic: Change of order of integration
+Topic: Area enclosed by plane curves
+Topic: Change of variables in double integrals
+Topic: Triple integrals
+
