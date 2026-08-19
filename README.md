@@ -198,7 +198,7 @@ Units parsed by LLM: 18
 Units using fallback: 2
 ============================================================
 Output saved to: syllabus_topics.xlsx
-Raw model outputs saved to: model_outputs/gemma3_12b/
+Raw model outputs saved to: model_outputs/
 ```
 
 ---
