@@ -2,10 +2,7 @@
 
 An end-to-end automated pipeline that extracts structured academic courses, units, topics, and subtopics from university syllabus PDFs, analyzes reference textbook PDFs to extract hierarchical headings and page ranges, and lays the foundation for mapping syllabus topics directly to textbook pages.
 
-> [!NOTE]
-> The experimental `VisionModels/` directory is an isolated test module and is excluded from this core pipeline documentation.
 
----
 
 ## Architecture Overview
 
