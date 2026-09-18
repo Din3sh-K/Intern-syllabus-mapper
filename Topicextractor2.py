@@ -7,7 +7,7 @@ import requests
 # ------------------------------------------------------------
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-OLLAMA_MODEL = "gemma3:12b"
+OLLAMA_MODEL = "deepseek-r1:14b"
 
 LLM_TEMPERATURE = 0
 LLM_MAX_RETRIES = 1
@@ -15,24 +15,24 @@ LLM_TIMEOUT_SECONDS = None
 DEBUG_LLM = True
 
 
-# ------------------------------------------------------------
-# Few-shot example (for plain-text format)
-# ------------------------------------------------------------
+# # ------------------------------------------------------------
+# # Few-shot example (for plain-text format)
+# # ------------------------------------------------------------
 
-FEWSHOT_INPUT = (
-    "Language development: Subject-Verb Agreement, Tenses, Conjunctions; "
-    "Vocabulary development: Root words, Prefixes and Suffixes; "
-    "Reading Comprehension"
-)
+# FEWSHOT_INPUT = (
+#     "Language development: Subject-Verb Agreement, Tenses, Conjunctions; "
+#     "Vocabulary development: Root words, Prefixes and Suffixes; "
+#     "Reading Comprehension"
+# )
 
-FEWSHOT_OUTPUT = """\
-Topic: Language development
-Subtopic: Subject-Verb Agreement, Tenses, Conjunctions
+# FEWSHOT_OUTPUT = """\
+# Topic: Language development
+# Subtopic: Subject-Verb Agreement, Tenses, Conjunctions
 
-Topic: Vocabulary development
-Subtopic: Root words, Prefixes and Suffixes
+# Topic: Vocabulary development
+# Subtopic: Root words, Prefixes and Suffixes
 
-Topic: Reading Comprehension"""
+# Topic: Reading Comprehension"""
 
 
 # ------------------------------------------------------------
@@ -43,37 +43,65 @@ def build_prompt(unit_body_text):
 
     return f"""You are an information extraction system for university syllabus documents.
 
-Your task is to extract the STRUCTURE of the supplied syllabus text.
+Your task is to extract the STRUCTURE of the supplied syllabus unit.
 
-The input is raw syllabus text from ONE UNIT.
+The input is RAW syllabus text from ONE UNIT.
 
-Your job is to identify:
+Extract:
 - main topics
 - subtopics belonging to those topics
 
-You MUST use only information explicitly present in the input.
+The most important requirement is to preserve the structure and wording
+of the source without inventing relationships.
 
 ==================================================
-IMPORTANT: THERE MAY BE DIFFERENT STRUCTURES
+CORE RULES
 ==================================================
 
-The syllabus may contain:
+1. Use ONLY information explicitly present in the input.
 
-1. FLAT TOPICS
-2. TOPICS WITH SUBTOPICS
-3. A MIXTURE OF BOTH
+2. Preserve the original wording of every extracted item.
 
-Do NOT assume that an entire unit must follow only one structure.
+3. Do NOT:
+   - paraphrase
+   - summarize
+   - correct spelling
+   - correct grammar
+   - rename topics
+   - add information
+   - remove meaningful information
+   - use outside knowledge
+   - invent relationships
 
---------------------------------------------------
-CASE 1: TOPIC WITH EXPLICIT CATEGORY HEADING
---------------------------------------------------
+4. Every meaningful syllabus item must appear somewhere in the output.
 
-When the syllabus contains:
+5. Do NOT merge multiple independent syllabus items into one large topic.
 
-Topic name: item A, item B, item C
+6. Do NOT create a hierarchy unless the source provides reasonable
+   evidence for that relationship.
 
-the text before the colon is normally the MAIN TOPIC.
+7. When uncertain, prefer separate TOPICS rather than inventing
+   a Topic → Subtopic relationship.
+
+==================================================
+STRUCTURE TYPES
+==================================================
+
+A unit may contain:
+
+1. Flat topics
+2. Topics with subtopics
+3. A mixture of both
+
+Do NOT assume that the entire unit follows one structure.
+
+==================================================
+RULE 1 — EXPLICIT CATEGORY STRUCTURE
+==================================================
+
+A colon can indicate:
+
+MAIN TOPIC: item A, item B, item C
 
 Example:
 
@@ -86,101 +114,73 @@ Subtopic: Subject-Verb Agreement
 Subtopic: Tenses (simple)
 Subtopic: Conjunctions
 
-Another example:
+The text before the colon is the main topic.
 
-Vocabulary development: Root words – Prefixes and Suffixes, Standard abbreviations
+The items after the colon belong to that topic ONLY when the
+punctuation and wording clearly support that interpretation.
 
-Output:
+Do NOT include the colon in the extracted text.
 
-Topic: Vocabulary development
-Subtopic: Root words – Prefixes and Suffixes
-Subtopic: Standard abbreviations
+==================================================
+RULE 2 — SEMICOLONS
+==================================================
 
-IMPORTANT:
-
-The text before the colon is NOT part of the subtopic.
-
-WRONG:
-
-Topic: Language development: Subject-Verb Agreement
-
-CORRECT:
-
-Topic: Language development
-Subtopic: Subject-Verb Agreement
-
---------------------------------------------------
-CASE 2: TOPIC WITHOUT SUBTOPICS
---------------------------------------------------
-
-A topic may exist independently.
+A semicolon usually separates major syllabus categories.
 
 Example:
 
-Nanoparticles and its uniqueness.
-Classification of nanoparticles.
+Language development: A, B; Vocabulary development: C, D; Reading: E
 
 Output:
 
-Topic: Nanoparticles and its uniqueness
-Topic: Classification of nanoparticles
+Topic: Language development
+Subtopic: A
+Subtopic: B
 
-Do NOT create subtopics unless the source clearly indicates a relationship.
+Topic: Vocabulary development
+Subtopic: C
+Subtopic: D
 
---------------------------------------------------
-CASE 3: DASHES DO NOT AUTOMATICALLY MEAN HIERARCHY
---------------------------------------------------
+Topic: Reading
+Subtopic: E
 
-A dash may simply separate independent syllabus items.
+A semicolon should NOT cause content from one category to become
+a subtopic of the previous category.
+
+==================================================
+RULE 3 — DASHES
+==================================================
+
+A dash is NOT automatically a Topic → Subtopic relationship.
 
 Example:
 
 Characteristic equation – Eigenvalues and Eigenvectors of a real matrix –
-Properties of eigen-values and eigenvectors –
-Cayley-Hamilton Theorem – statement and applications
+Properties of eigen-values and eigenvectors – Cayley-Hamilton Theorem
 
-This may represent:
+The safe interpretation is:
 
 Topic: Characteristic equation
 Topic: Eigenvalues and Eigenvectors of a real matrix
 Topic: Properties of eigen-values and eigenvectors
 Topic: Cayley-Hamilton Theorem
-Topic: statement and applications
-
-Do NOT automatically interpret:
-
-A – B
-
-as:
-
-Topic A
-    Subtopic B
-
-A dash alone is NOT sufficient evidence of a parent-child relationship.
-
---------------------------------------------------
-CASE 4: COMMAS DO NOT AUTOMATICALLY MEAN SUBTOPICS
---------------------------------------------------
-
-Example:
-
-Thermal, Optical, Chemical, Electronic and Mechanical
 
 Do NOT automatically create:
 
-Topic: Thermal
-Topic: Optical
-Topic: Chemical
-...
+Topic: Characteristic equation
+Subtopic: Eigenvalues...
 
-Instead, determine whether these are properties belonging to a previously
-identified topic.
+unless the source clearly establishes that hierarchy.
 
-For example:
+However, a dash-separated list MAY represent subtopics when the
+preceding wording clearly establishes a category.
 
-Size dependent Properties – Thermal, Optical, Chemical, Electronic and Mechanical
+Example:
 
-should preserve the relationship:
+Size dependent Properties – Thermal, Optical, Chemical, Electronic
+and Mechanical
+
+Output:
 
 Topic: Size dependent Properties
 Subtopic: Thermal
@@ -189,94 +189,232 @@ Subtopic: Chemical
 Subtopic: Electronic
 Subtopic: Mechanical
 
-when the wording clearly indicates that these are properties of
-"Size dependent Properties".
+The relationship is supported because the listed items are explicitly
+presented as properties under the preceding category.
 
---------------------------------------------------
-CASE 5: MIXED STRUCTURE
---------------------------------------------------
+==================================================
+RULE 4 — COMMA-SEPARATED ITEMS
+==================================================
 
-A unit can contain both hierarchical and flat topics.
+Do NOT automatically treat every comma-separated phrase as a separate
+subtopic.
+
+Determine whether the comma-separated items are:
+
+A. independent topics,
+B. items belonging to a clearly identified topic, or
+C. simply part of one phrase.
 
 Example:
 
-Language development: Subject-Verb Agreement, Tenses, Conjunctions;
-Vocabulary development: Root words, Prefixes and Suffixes;
-Nanoparticles and its uniqueness;
-Classification of nanoparticles.
+Types of optical fibres (material, refractive index, mode)
 
-Output:
+should remain:
 
-Topic: Language development
-Subtopic: Subject-Verb Agreement
-Subtopic: Tenses
-Subtopic: Conjunctions
+Topic: Fibre optics
+Subtopic: Types of optical fibres (material, refractive index, mode)
 
-Topic: Vocabulary development
-Subtopic: Root words
-Subtopic: Prefixes and Suffixes
+Do NOT produce:
 
-Topic: Nanoparticles and its uniqueness
+Subtopic: material
+Subtopic: refractive index
+Subtopic: mode
 
-Topic: Classification of nanoparticles
+unless the source explicitly presents them as separate syllabus items.
 
---------------------------------------------------
-HIERARCHY DECISION RULE
---------------------------------------------------
+==================================================
+RULE 5 — LISTS INSIDE A CLEAR CATEGORY
+==================================================
 
-Use the following priority:
+When a topic clearly introduces a list of items, preserve the
+relationship.
 
-1. Explicit colon structure is strong evidence of a topic followed by
-   its items.
+Example:
 
-2. Explicit wording such as:
-   "types of..."
-   "properties of..."
-   "techniques..."
-   "methods..."
-   "applications..."
-   may indicate that following items belong to the preceding topic,
-   but only when the relationship is clearly supported by the source.
+Types of lasers – Nd: YAG, & CO2 lasers – Basics of diode lasers
 
-3. A dash alone is NOT evidence of hierarchy.
+Output may be:
 
-4. A comma alone is NOT evidence of hierarchy.
+Topic: Photonics
+Subtopic: Types of lasers
+Subtopic: Nd: YAG, & CO2 lasers
+Subtopic: Basics of diode lasers
 
-5. Semicolon usually separates major categories/topics.
-
-6. Do NOT invent relationships using outside knowledge.
-
-7. If uncertain, prefer a FLAT TOPIC rather than inventing a hierarchy.
-
---------------------------------------------------
-EXACT TEXT RULE
---------------------------------------------------
-
-Every extracted item MUST come from the supplied input.
-
-DO NOT:
-
-- paraphrase
-- summarize
-- correct spelling
-- correct grammar
-- change capitalization
-- rename anything
-- invent information
-- add information
-- remove meaningful words
-- use outside knowledge
-- merge unrelated items
-
-Preserve the wording from the source as closely as possible.
-
-However, remove only structural punctuation that belongs to the
-separator itself.
+Do not split a single named item into artificial pieces.
 
 For example:
 
+Nd: YAG, & CO2 lasers
+
+must remain one extracted item.
+
+==================================================
+RULE 6 — DO NOT SPLIT CONNECTED PHRASES
+==================================================
+
+A phrase containing words that are grammatically or conceptually
+connected should remain together.
+
+Examples:
+
+"theory and experiment"
+
+"series and parallel"
+
+"Time independent and time dependent equations"
+
+"pulse echo system through transmission and reflection modes"
+
+"Industrial and Medical Applications"
+
+These should NOT automatically be split into separate subtopics.
+
+Preserve them as one item when they form one syllabus phrase.
+
+==================================================
+RULE 7 — DO NOT CREATE ARTIFICIAL SUBTOPICS
+==================================================
+
+Do NOT turn generic words or fragments into subtopics.
+
+For example:
+
+Properties of matter: Elasticity – Hooke’s law – Relationship between
+three moduli of elasticity – stress-strain diagram
+
+Valid:
+
+Topic: Properties of matter
+Subtopic: Elasticity
+Subtopic: Hooke’s law
+Subtopic: Relationship between three moduli of elasticity
+Subtopic: stress-strain diagram
+
+But do NOT create artificial fragments such as:
+
+Subtopic: theory
+Subtopic: experiment
+Subtopic: series
+Subtopic: parallel
+
+when those words belong to a larger source phrase.
+
+==================================================
+RULE 8 — PRESERVE COMPLETE SYLLABUS ITEMS
+==================================================
+
+Do not split an item when doing so would change its meaning.
+
+Example:
+
+"electroplating (Au) and electroless (Ni) plating"
+
+should remain:
+
+Subtopic: electroplating (Au) and electroless (Ni) plating
+
+NOT:
+
+Subtopic: electroplating (Au)
+Subtopic: electroless (Ni) plating
+
+Similarly:
+
+"Particle in a one-dimensional box and extension to three dimensional box"
+
+should remain one item.
+
+==================================================
+RULE 9 — TOPIC VS SUBTOPIC
+==================================================
+
+Use a TOPIC when the source presents an independent syllabus concept.
+
+Use a SUBTOPIC when the source clearly presents the item as part of
+a preceding category.
+
+Example:
+
 Input:
 
+Corrosion – Definition – Classification of corrosion – Chemical corrosion
+
+Output:
+
+Topic: Corrosion
+Subtopic: Definition
+Subtopic: Classification of corrosion
+Subtopic: Chemical corrosion
+
+But:
+
+Input:
+
+Characteristic equation – Eigenvalues and Eigenvectors of a real matrix –
+Properties of eigen-values and eigenvectors
+
+Output:
+
+Topic: Characteristic equation
+Topic: Eigenvalues and Eigenvectors of a real matrix
+Topic: Properties of eigen-values and eigenvectors
+
+Do not force hierarchy simply because several items are adjacent.
+
+==================================================
+RULE 10 — DO NOT CROSS STRUCTURAL BOUNDARIES
+==================================================
+
+Never move an item into a previous topic merely because it appears
+after that topic.
+
+Each new clearly identifiable category starts a new topic.
+
+Example:
+
+Language development: A, B, C;
+Vocabulary development: D, E;
+Reading: F, G
+
+Correct:
+
+Topic: Language development
+Subtopic: A
+Subtopic: B
+Subtopic: C
+
+Topic: Vocabulary development
+Subtopic: D
+Subtopic: E
+
+Topic: Reading
+Subtopic: F
+Subtopic: G
+
+Do NOT place D or E under Language development.
+
+==================================================
+RULE 11 — EXACT TEXT
+==================================================
+
+Every extracted item must come from the input.
+
+Preserve:
+
+- spelling
+- capitalization
+- wording
+- abbreviations
+- symbols
+- numbers
+- parentheses
+- meaningful punctuation
+
+Remove ONLY punctuation that is being used as a structural separator.
+
+Example:
+
+Input:
 Language development: Subject-Verb Agreement
 
 Output:
@@ -289,39 +427,59 @@ NOT:
 Topic: Language development:
 Subtopic: Subject-Verb Agreement
 
---------------------------------------------------
-IMPORTANT: DO NOT LOSE ITEMS
---------------------------------------------------
+==================================================
+RULE 12 — DO NOT LOSE ITEMS
+==================================================
 
-Every meaningful syllabus item in the source must appear in the output.
+Every meaningful syllabus item must appear in the output.
 
-Do not silently discard an item.
+Do not silently discard:
 
-Do not combine multiple independent syllabus items into one item.
+- definitions
+- classifications
+- methods
+- applications
+- properties
+- examples
+- named systems
+- named techniques
+- experiments
+- measurements
+- equations
+- laws
+- procedures
 
-For example:
+If an item is explicitly present and meaningful, preserve it.
 
-Writing: Describing an object, the process of an event/experiment
-and others, Paragraph Writing
+==================================================
+IMPORTANT EDGE CASE
+==================================================
 
-must NOT become:
+Do NOT interpret isolated letters or short fragments as independent
+topics or subtopics when they are clearly part of a larger phrase.
 
-Topic: Writing: Describing an object, the process...
+Example:
 
-Instead:
+pulse echo system through transmission and reflection modes – A, B and C – scan displays
 
-Topic: Writing
-Subtopic: Describing an object
-Subtopic: the process of an event/experiment and others
-Subtopic: Paragraph Writing
+should preserve:
 
---------------------------------------------------
+Subtopic: pulse echo system through transmission and reflection modes
+Subtopic: A, B and C – scan displays
+
+Do NOT produce:
+
+Subtopic: A
+Subtopic: B
+Subtopic: C
+
+==================================================
 OUTPUT FORMAT
---------------------------------------------------
+==================================================
 
-Return ONLY these lines.
+Return ONLY the following format.
 
-For a topic without subtopics:
+For an independent topic:
 
 Topic: <exact text>
 
@@ -338,6 +496,7 @@ Example:
 Topic: Language development
 Subtopic: Subject-Verb Agreement
 Subtopic: Tenses (simple)
+Subtopic: Conjunctions
 
 Topic: Vocabulary development
 Subtopic: Root words – Prefixes and Suffixes
@@ -345,16 +504,16 @@ Subtopic: Standard abbreviations
 
 Topic: Nanoparticles and its uniqueness
 
---------------------------------------------------
+==================================================
 NO EXTRA OUTPUT
---------------------------------------------------
+==================================================
 
-Return ONLY:
+Return ONLY lines beginning with:
 
 Topic:
 Subtopic:
 
-Do not return:
+Do NOT return:
 
 - explanations
 - reasoning
@@ -383,7 +542,7 @@ def call_ollama(prompt):
         "options": {
             "temperature": LLM_TEMPERATURE,
             "num_predict": 1024,
-            "num_ctx": 4096,
+            "num_ctx": 8192,
         },
     }
     # NuExtract needs raw mode + stop token; general models just get plain text
@@ -422,16 +581,14 @@ def parse_plain_text_response(text):
             rows.append((current_topic, ""))
 
         elif line.lower().startswith("subtopic:") and current_topic is not None:
-            subtopics_raw = line[len("subtopic:"):].strip()
-            subtopics = [s.strip() for s in subtopics_raw.split(",") if s.strip()]
+            subtopic_text = line[len("subtopic:"):].strip()
 
             # Replace the placeholder row we added for this topic
             if rows and rows[-1] == (current_topic, ""):
                 rows.pop()
 
-            if subtopics:
-                for st in subtopics:
-                    rows.append((current_topic, st))
+            if subtopic_text:
+                rows.append((current_topic, subtopic_text))
             else:
                 rows.append((current_topic, ""))
 

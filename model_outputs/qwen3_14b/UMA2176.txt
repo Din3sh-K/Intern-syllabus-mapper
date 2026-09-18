@@ -1,0 +1,61 @@
+
+======================================================================
+SUBJECT: UMA2176 - MATRICES AND CALCULUS
+UNIT: I
+MODEL: qwen3:14b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Characteristic equation – Eigenvalues and Eigenvectors of a real matrix – Properties of eigen- values and
+eigenvectors, Cayley-Hamilton Theorem – statement and applications, Diagonalization of matrices –
+Similarity transformation – Quadratic form – Reduction of a quadratic form to canonical form by
+orthogonal transformation – Nature of quadratic forms.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Characteristic equation  
+Topic: Eigenvalues and Eigenvectors of a real matrix  
+Topic: Properties of eigen-values and eigenvectors  
+Topic: Cayley-Hamilton Theorem  
+Topic: statement and applications  
+Topic: Diagonalization of matrices  
+Topic: Similarity transformation  
+Topic: Quadratic form  
+Topic: Reduction of a quadratic form to canonical form by orthogonal transformation  
+Topic: Nature of quadratic forms
+
+
+======================================================================
+SUBJECT: UMA2176 - MATRICES AND CALCULUS
+UNIT: II
+MODEL: qwen3:14b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Sequences – Definition and examples, Series – Types of Convergence, Series of positive terms, Tests of
+convergence – Comparison test, Integral test and D’Alembert’s ratio test, Alternating series – Leibnitz’s
+test, Series of positive and negative terms, Absolute and conditional convergence.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+[NO RESPONSE]
+
+
+======================================================================
+SUBJECT: UMA2176 - MATRICES AND CALCULUS
+UNIT: III
+MODEL: qwen3:14b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Curvature, radius of curvature – Cartesian and parametric co-ordinates – Centre of curvature – Circle of
+curvature in Cartesian form, Evolutes, Envelopes (including two parameter family), Evolute as envelope
+of normal.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+[NO RESPONSE]
+

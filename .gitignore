@@ -18,9 +18,22 @@ __pycache__/
 
 # Output Excel & Log Files
 *.xlsx
+~$*.xlsx
 model_outputs/all_model_outputs.txt
+
+# Textbook input & output folders
+input_books/*.pdf
+!input_books/.gitkeep
+output_results/*.xlsx
+output_results/*_data.json
+!output_results/.gitkeep
+
+# Model weights & Hugging Face cache
+*.pt
+.cache/
 
 # OS Generated Files
 Thumbs.db
 Desktop.ini
 .DS_Store
+

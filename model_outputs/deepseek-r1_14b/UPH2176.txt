@@ -1,0 +1,90 @@
+
+======================================================================
+SUBJECT: UPH2176 - ENGINEERING PHYSICS
+UNIT: I
+MODEL: deepseek-r1:14b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Single crystalline, polycrystalline and amorphous materials– single crystals - Lattice – Unit cell – Bravais
+lattice – Lattice planes – Miller indices – d spacing in cubic lattice – Calculation of number of atoms per
+unit cell – Atomic radius – Coordination number – Packing factor for SC, BCC, FCC and HCP structures
+– Diamond and graphite structures (qualitative treatment) – Crystal Imperfections – Point, line (Edge and
+Screw dislocations – Burger vectors) Surface (stacking faults) and Volume defects.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Single crystalline, polycrystalline and amorphous materials
+Subtopic: single crystals
+Subtopic: Lattice
+Subtopic: Unit cell
+Subtopic: Bravais lattice
+Subtopic: Lattice planes
+Subtopic: Miller indices
+Subtopic: d spacing in cubic lattice
+Subtopic: Calculation of number of atoms per unit cell
+Subtopic: Atomic radius
+Subtopic: Coordination number
+Subtopic: Packing factor for SC, BCC, FCC and HCP structures
+Subtopic: Diamond and graphite structures (qualitative treatment)
+Subtopic: Crystal Imperfections
+Subtopic: Point
+Subtopic: line (Edge and Screw dislocations – Burger vectors)
+Subtopic: Surface (stacking faults) and Volume defects
+
+
+======================================================================
+SUBJECT: UPH2176 - ENGINEERING PHYSICS
+UNIT: II
+MODEL: deepseek-r1:14b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Properties of matter: Elasticity – Hooke’s law – Relationship between three moduli of elasticity – stress
+-strain diagram– Poisson’s ratio – Factors affecting elasticity – Torsional stress & deformations –
+Twisting couple – Torsion pendulum - theory and experiment – bending of beams-bending moment –
+cantilever: theory and experiment – uniform and non-uniform bending: theory and experiment – I-shaped
+girders. Thermal Physics: Modes of heat transfer – thermal conduction, convection and radiation –
+Newton’s law of cooling – thermal conductivity – Lee’s disc method for bad conductor – Radial heat flow
+– Rubber tube method – conduction through compound media (series and parallel)
+– Formation of ice on ponds.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+[NO RESPONSE]
+
+
+======================================================================
+SUBJECT: UPH2176 - ENGINEERING PHYSICS
+UNIT: III
+MODEL: deepseek-r1:14b
+======================================================================
+
+INPUT
+----------------------------------------------------------------------
+Acoustics: Classification and characteristics of Sound – decibel – Weber-Fechner law – Sabine’s formula
+- derivation using growth and decay method – factors affecting acoustics of buildings and their remedies
+– Methods of determination of Absorption Coefficient. Ultrasonics: Pro- duction of ultrasonics by
+Magnetostriction and piezoelectric methods – acoustic grating - Non-Destructive Testing – pulse echo
+system through transmission and reflection modes – A, B and C – scan displays.
+
+RAW MODEL OUTPUT
+----------------------------------------------------------------------
+Topic: Acoustics
+Subtopic: Classification and characteristics of Sound
+Subtopic: decibel
+Subtopic: Weber-Fechner law
+Subtopic: Sabine’s formula
+Subtopic: derivation using growth and decay method
+Subtopic: factors affecting acoustics of buildings and their remedies
+Subtopic: Methods of determination of Absorption Coefficient
+
+Topic: Ultrasonics
+Subtopic: Production of ultrasonics by Magnetostriction and piezoelectric methods
+Subtopic: acoustic grating
+Subtopic: Non-Destructive Testing
+Subtopic: pulse echo system through transmission and reflection modes
+Subtopic: A, B and C – scan displays
+
