@@ -20,6 +20,8 @@ __pycache__/
 *.xlsx
 ~$*.xlsx
 model_outputs/all_model_outputs.txt
+*mapping*.json
+*mapping*.xlsx
 
 # Textbook input & output folders
 input_books/*.pdf
@@ -37,3 +39,6 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
+
+# Embedding Cache
+.embeddings_cache/
